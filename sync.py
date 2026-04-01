@@ -62,6 +62,8 @@ def fetch_printify_products():
     while True:
         url = f"https://api.printify.com/v1/shops/{PRINTIFY_SHOP_ID}/products.json?page={page}&limit=100"
         resp = requests.get(url, headers=PRINTIFY_HEADERS)
+        if not resp.ok:
+            print(f"Printify error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         data = resp.json()
 
