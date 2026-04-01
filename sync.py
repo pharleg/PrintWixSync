@@ -15,7 +15,6 @@ PRINTIFY_SHOP_ID = os.getenv("PRINTIFY_SHOP_ID")
 WIX_HEADERS = {
     "Authorization": WIX_API_KEY,
     "wix-site-id": WIX_SITE_ID,
-    "wix-account-id": WIX_ACCOUNT_ID,
     "Content-Type": "application/json",
 }
 
