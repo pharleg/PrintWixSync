@@ -2,6 +2,7 @@
   "printify_products": [
     {
       "title": "Boyfriend Tee \u2014 Lake Erie Girls Stay Anchored Bow & Anchor Graphic Women's Tee",
+      "match_type": "exact",
       "wix_id": "4260d66a-f340-47e9-80e6-28a4525d3f13",
       "printify_id": "69c878f5fd8faf05f0026605",
       "source": "printify",
@@ -10,6 +11,7 @@
     },
     {
       "title": "Great Lakes Hoodie \u2014 \"Always Fresh (Sometimes Frozen)\" Navy Pullover",
+      "match_type": "exact",
       "wix_id": "716ad309-8e38-474d-8d05-dc16a48ac946",
       "printify_id": "69c86fbdf0511d420b0d90b7",
       "source": "printify",
@@ -18,6 +20,7 @@
     },
     {
       "title": "Lake Erie Women's Anchor & Bow Tee  \u2014 \"The Boyfriend Tee\" Nautical Graphic Shirt",
+      "match_type": "exact",
       "wix_id": "322779cb-f822-40c5-a596-a169d3b89677",
       "printify_id": "69c86ab1d4c292180e01a3aa",
       "source": "printify",
@@ -26,6 +29,7 @@
     },
     {
       "title": "Women's Floral Skull Tee \u2014 'Lake Erie Loot Crew' Festival Shirt",
+      "match_type": "exact",
       "wix_id": "67cc122f-8257-482d-b2e1-2affd495e26f",
       "printify_id": "69a5906ecdb1a841450be21d",
       "source": "printify",
@@ -34,6 +38,7 @@
     },
     {
       "title": "Pirate Fest T-Shirt \u2014 \"Drop Anchor, Raise Hell\" Skull & Ship Graphic",
+      "match_type": "exact",
       "wix_id": "bb743ea9-7dac-4887-8db4-87782ba2df80",
       "printify_id": "69a5b4cc2b5387ddf50e12f7",
       "source": "printify",
@@ -42,6 +47,7 @@
     },
     {
       "title": "Skull Floral Tank \u2014 \"Lake Erie Loot Crew\" Women's Spaghetti Strap Tank",
+      "match_type": "exact",
       "wix_id": "2d50ecb4-8320-40e2-ab5c-17883fe08b4c",
       "printify_id": "69c16d2f1587f0bb7b0cb4a7",
       "source": "printify",
@@ -50,6 +56,7 @@
     },
     {
       "title": "Walleye Angler Graphic Tee \u2014 \"Walleye Capital of the World\" Fishing Shirt",
+      "match_type": "exact",
       "wix_id": "6f0b7b9f-a6a5-47d5-8244-22deab906ed9",
       "printify_id": "69b315d13b14b2315b07571c",
       "source": "printify",
@@ -58,6 +65,7 @@
     },
     {
       "title": "Mug \u2013 \"WTF Where's The Fish\" Lake Erie Walleye Capital Black Coffee Mug 15oz",
+      "match_type": "exact",
       "wix_id": "a94275b8-8164-4f22-a629-285f5bcfc52e",
       "printify_id": "69b31345a949292e7602fa8c",
       "source": "printify",
@@ -66,6 +74,7 @@
     },
     {
       "title": "OU Mens Rugby Green Hoodie",
+      "match_type": "exact",
       "wix_id": "3cf5b288-cccc-4fa8-9a9b-8e70790cd062",
       "printify_id": "69ae096ee3f9110912045beb",
       "source": "printify",
@@ -74,6 +83,7 @@
     },
     {
       "title": "Unisex Heavy Blend\u2122 Hooded Sweatshirt",
+      "match_type": "exact",
       "wix_id": "666cf872-175d-4b4e-b686-0cf0d79bb796",
       "printify_id": "69a62a54159295bd3b0ab637",
       "source": "printify",
@@ -82,6 +92,7 @@
     },
     {
       "title": "OU Mens Rugby Piqu\u00e9 Polo",
+      "match_type": "exact",
       "wix_id": "3aab269b-a32d-4976-8818-fe01fcd169bd",
       "printify_id": "69a62a4bc59fd8b07d08cb2c",
       "source": "printify",
@@ -90,6 +101,7 @@
     },
     {
       "title": "OU Mens Rugby Unisex Joggers",
+      "match_type": "exact",
       "wix_id": "35cb22c1-2441-4d86-b153-118bebe42b88",
       "printify_id": "69a62a3bb5cfc578e6087caa",
       "source": "printify",
@@ -98,6 +110,7 @@
     },
     {
       "title": "OU Mens Rugby Quarter Zip Sweatshirt",
+      "match_type": "exact",
       "wix_id": "cb8686b9-0e74-4dc0-890d-731ea8d188c5",
       "printify_id": "69a62a33813f0fd0c006cb19",
       "source": "printify",
@@ -106,6 +119,7 @@
     },
     {
       "title": "OU Mens Rugby Fleece Sweatshorts",
+      "match_type": "exact",
       "wix_id": "908ad7ce-1eb6-4c15-a0e3-10413eb40adc",
       "printify_id": "69a62a30b5cfc578e6087ca9",
       "source": "printify",
@@ -114,6 +128,7 @@
     },
     {
       "title": "OU Mens Rugby Microfiber Blanket",
+      "match_type": "exact",
       "wix_id": "7ad8dcac-87c9-4b90-9b51-09d5925be42e",
       "printify_id": "69a62a2ccce107166c07d8b8",
       "source": "printify",
@@ -122,6 +137,7 @@
     },
     {
       "title": "OU Mens Rugby Pajama Pants",
+      "match_type": "exact",
       "wix_id": "0754b461-579c-47b1-b71d-cd26246ba36c",
       "printify_id": "69ae18b3a878a19895021ea6",
       "source": "printify",
@@ -130,6 +146,7 @@
     },
     {
       "title": "OU Mens Rugby Sweatshirt",
+      "match_type": "exact",
       "wix_id": "c7bb70dd-0838-4f28-a101-51b5acd806e6",
       "printify_id": "69af0159b11e1d8f8004731a",
       "source": "printify",
@@ -138,6 +155,7 @@
     },
     {
       "title": "OU Rugby Men's Shorts",
+      "match_type": "exact",
       "wix_id": "e5f4ea65-2704-4946-88e8-9e423e3520c8",
       "printify_id": "69a62a389d7d145c3b075597",
       "source": "printify",
@@ -146,6 +164,7 @@
     },
     {
       "title": "OU Rugby Tee",
+      "match_type": "exact",
       "wix_id": "617b28de-496a-4f1f-ae3a-c5ea6565cf5c",
       "printify_id": "69af277f7c36fc2c430126b0",
       "source": "printify",
@@ -154,6 +173,7 @@
     },
     {
       "title": "Unisex Heavy Blend\u2122 Hooded Sweatshirt",
+      "match_type": "exact",
       "wix_id": "5dea8313-5386-4b78-9a57-c1d5f0a5facb",
       "printify_id": "69a62a54159295bd3b0ab637",
       "source": "printify",
@@ -162,6 +182,7 @@
     },
     {
       "title": "Unisex Garment-Dyed T-shirt",
+      "match_type": "exact",
       "wix_id": "e95c69a6-919f-416c-a280-e787ad0ef216",
       "printify_id": "69a4beee7fc2996b8d0ace4e",
       "source": "printify",
@@ -169,46 +190,196 @@
       "printify_description": "<p>Comfort Colors introduces the \u201cComfort Colors 1717\u201d garment-dyed t-shirt; a fully customizable tee made with 100% ring-spun cotton. The soft-washed, garment-dyed fabric brings extra coziness to your wardrobe while the relaxed fit makes it an excellent daily choice. The double-needle stitching throughout the tee makes it highly durable, while the lack of side seams helps the shirt retain its tubular shape. Discover all 58 colors in our charts below.</p><br/><p>.: Heavyweight fabric (6.1 oz/yd\u00b2 (206.8 g/m\u00b2))<br/>.: Relaxed fit<br/>.: Pre-shrunk 100% ring-spun US cotton<br/>.: Available in 58 colors<br/>.: Sewn-in label</p>"
     }
   ],
-  "wix_native_products": [
+  "possible_duplicates": [
     {
-      "title": "Surf with Passion Velveteen Plush Blanket",
+      "wix_title": "Surf with Passion Velveteen Plush Blanket",
+      "printify_title": "Velveteen Plush Blanket",
+      "match_score": 0.6,
       "wix_id": "c375d715-b81b-4bf9-8abe-b5a76253c452",
-      "source": "wix",
-      "description": ""
+      "printify_id": "68c6fe5355657ac444076e99",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
     },
+    {
+      "wix_title": "Command the Coast: The Drop Anchor Raise Hell Pirate Fest Tee",
+      "printify_title": "Pirate Fest T-Shirt \u2014 \"Drop Anchor, Raise Hell\" Skull & Ship Graphic",
+      "match_score": 0.55,
+      "wix_id": "e50c17e8-b082-4304-9f0e-36e9c99f8098",
+      "printify_id": "69a5b4cc2b5387ddf50e12f7",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Lake Erie Loot Crew Floral Skull Tee",
+      "printify_title": "Women's Floral Skull Tee \u2014 'Lake Erie Loot Crew' Festival Shirt",
+      "match_score": 0.64,
+      "wix_id": "3b3e494c-0cbd-4b4f-b37d-5d71220e1910",
+      "printify_id": "69a5906ecdb1a841450be21d",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Pirate in Training Youth Tee (Navigator Series)",
+      "printify_title": "Youth Tee \u2014 \"Pirate in Training\" Kids Pirate Graphic Shirt",
+      "match_score": 0.57,
+      "wix_id": "997f6362-b6cd-4656-89c1-5a7be8bd1392",
+      "printify_id": "69a4d94894ca9fbf1d022421",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Pirate in Training Youth Tee (Voyager Series)",
+      "printify_title": "Youth Tee \u2014 \"Pirate in Training\" Kids Pirate Graphic Shirt",
+      "match_score": 0.57,
+      "wix_id": "7648feea-cf90-4a7a-9bdd-39f673802dc6",
+      "printify_id": "69a4d94894ca9fbf1d022421",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Pirates of Port Clinton Pirate Fest Tee",
+      "printify_title": "Pirates of Port Clinton \"Pirate Fest\" Anchor T-Shirt",
+      "match_score": 0.62,
+      "wix_id": "5065699e-05c7-4bfb-b547-0936ebac656c",
+      "printify_id": "69a4d248414758b6c60331ec",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Put-in-Bay Tunnel \"Authorized Vehicle\" Magnet",
+      "printify_title": "Put-in-Bay Tunnel Pass Car Magnet",
+      "match_score": 0.67,
+      "wix_id": "eb65dfcf-be6b-4864-8f81-68fd913dd5b9",
+      "printify_id": "67643a4a1c5d1197090f4e13",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Put-In-Bay Tunnel \"Authorized Vehicle\" Sticker",
+      "printify_title": "Put-in-Bay Tunnel Pass Car Magnet",
+      "match_score": 0.5,
+      "wix_id": "d88a07a6-840b-4dbe-bf49-45427d7ffd98",
+      "printify_id": "67643a4a1c5d1197090f4e13",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Get Hooked Lake Erie Car Magnet",
+      "printify_title": "Get Hooked-Lake Erie-Sipper Glass",
+      "match_score": 0.67,
+      "wix_id": "4bdb0a98-2ae0-43a1-971c-7b097cf3c9ec",
+      "printify_id": "67493f50f18e27490605919d",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Lake Erie Sunsets Candle",
+      "printify_title": "Lake Erie Sunsets Scented Soy Candle, 9oz",
+      "match_score": 0.57,
+      "wix_id": "d6fb24fc-9fcd-4b6f-a209-c726bd5df68e",
+      "printify_id": "67512574850a391d9c094fdb",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Get Hooked Glass Sipper",
+      "printify_title": "Get Hooked-Lake Erie-Sipper Glass",
+      "match_score": 0.67,
+      "wix_id": "2123d837-4d63-4401-8989-5b3122db1553",
+      "printify_id": "67493f50f18e27490605919d",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Surf Lake Erie Glass Sipper",
+      "printify_title": "Colored Surfboards-Lake Erie-Sipper Glass",
+      "match_score": 0.67,
+      "wix_id": "e9d8033f-4a0e-43a4-9100-9322f8ff7ef6",
+      "printify_id": "67494213429f5e5ed400c937",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Lake Erie Sunsets Ceramic Mug",
+      "printify_title": "Lake Erie Sunsets Scented Soy Candle, 9oz",
+      "match_score": 0.43,
+      "wix_id": "f88d9912-c747-4261-b1b3-822439837dc7",
+      "printify_id": "67512574850a391d9c094fdb",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Get Hooked Lake Erie Essential Tee",
+      "printify_title": "Get Hooked-Lake Erie-Sipper Glass",
+      "match_score": 0.67,
+      "wix_id": "3a849105-bd9a-46f3-a8a2-8d1a81f8bbc1",
+      "printify_id": "67493f50f18e27490605919d",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Velveteen Microfiber Blanket",
+      "printify_title": "Velveteen Plush Blanket",
+      "match_score": 0.67,
+      "wix_id": "f42e9831-717c-428a-9117-ea7cbdb17cc8",
+      "printify_id": "68c6fe5355657ac444076e99",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Men's Pajama Pants (AOP)",
+      "printify_title": "OU Mens Rugby Pajama Pants",
+      "match_score": 0.4,
+      "wix_id": "66fbf05d-2dbc-4630-9cc6-e33207f52dfd",
+      "printify_id": "69ae18b3a878a19895021ea6",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Unisex Heavy Blend\u2122 Crewneck Sweatshirt",
+      "printify_title": "Unisex Heavy Blend\u2122 Hooded Sweatshirt",
+      "match_score": 0.8,
+      "wix_id": "ed9381a7-0d38-4da9-ab31-af98d2e04e05",
+      "printify_id": "69a62a54159295bd3b0ab637",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Men's Pajama Pants (AOP)",
+      "printify_title": "OU Mens Rugby Pajama Pants",
+      "match_score": 0.4,
+      "wix_id": "35f5f547-3227-4286-a454-13cee0e00ebb",
+      "printify_id": "69ae18b3a878a19895021ea6",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": " Men\u2019s Sports Shorts (AOP)",
+      "printify_title": "OU Rugby Men's Shorts",
+      "match_score": 0.6,
+      "wix_id": "9eed6d21-8396-4f0a-95f5-3b2beed141db",
+      "printify_id": "69a62a389d7d145c3b075597",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Unisex Joggers (Embroidery)",
+      "printify_title": "OU Mens Rugby Unisex Joggers",
+      "match_score": 0.4,
+      "wix_id": "6abeb733-5e20-4d4b-8e44-fdcfa289f924",
+      "printify_id": "69a62a3bb5cfc578e6087caa",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Men's Piqu\u00e9 Polo",
+      "printify_title": "Men's Sport Polo Shirt",
+      "match_score": 0.6,
+      "wix_id": "d07c7db9-8ba1-4829-a682-219ab33d2dfd",
+      "printify_id": "6994cfca101fb98176081366",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Always Fresh Sometimes Frozen Tee",
+      "printify_title": "Great Lakes Hoodie \u2014 \"Always Fresh (Sometimes Frozen)\" Navy Pullover",
+      "match_score": 0.44,
+      "wix_id": "f27e655b-0f5e-4ae8-a4af-341210f5eee8",
+      "printify_id": "69c86fbdf0511d420b0d90b7",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    },
+    {
+      "wix_title": "Always Fresh Sometimes Frozen Hoodie",
+      "printify_title": "Great Lakes Hoodie \u2014 \"Always Fresh (Sometimes Frozen)\" Navy Pullover",
+      "match_score": 0.56,
+      "wix_id": "409ff93e-25f0-43e3-a3dd-9c0d94c52b36",
+      "printify_id": "69c86fbdf0511d420b0d90b7",
+      "action": "review: remove from Wix if confirmed same product, sync from Printify"
+    }
+  ],
+  "wix_native_products": [
     {
       "title": "Lake Erie Bow & Anchor T",
       "wix_id": "507c8869-3823-474b-9a09-ef941c4fbb7c",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Command the Coast: The Drop Anchor Raise Hell Pirate Fest Tee",
-      "wix_id": "e50c17e8-b082-4304-9f0e-36e9c99f8098",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Lake Erie Loot Crew Floral Skull Tee",
-      "wix_id": "3b3e494c-0cbd-4b4f-b37d-5d71220e1910",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Pirate in Training Youth Tee (Navigator Series)",
-      "wix_id": "997f6362-b6cd-4656-89c1-5a7be8bd1392",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Pirate in Training Youth Tee (Voyager Series)",
-      "wix_id": "7648feea-cf90-4a7a-9bdd-39f673802dc6",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Pirates of Port Clinton Pirate Fest Tee",
-      "wix_id": "5065699e-05c7-4bfb-b547-0936ebac656c",
       "source": "wix",
       "description": ""
     },
@@ -267,50 +438,8 @@
       "description": ""
     },
     {
-      "title": "Put-in-Bay Tunnel \"Authorized Vehicle\" Magnet",
-      "wix_id": "eb65dfcf-be6b-4864-8f81-68fd913dd5b9",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Put-In-Bay Tunnel \"Authorized Vehicle\" Sticker",
-      "wix_id": "d88a07a6-840b-4dbe-bf49-45427d7ffd98",
-      "source": "wix",
-      "description": ""
-    },
-    {
       "title": "Lake Vibes Essential Hoodie",
       "wix_id": "11f8fdd5-d1eb-4840-aa87-ce28fabcde78",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Get Hooked Lake Erie Car Magnet",
-      "wix_id": "4bdb0a98-2ae0-43a1-971c-7b097cf3c9ec",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Lake Erie Sunsets Candle",
-      "wix_id": "d6fb24fc-9fcd-4b6f-a209-c726bd5df68e",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Get Hooked Glass Sipper",
-      "wix_id": "2123d837-4d63-4401-8989-5b3122db1553",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Surf Lake Erie Glass Sipper",
-      "wix_id": "e9d8033f-4a0e-43a4-9100-9322f8ff7ef6",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Lake Erie Sunsets Ceramic Mug",
-      "wix_id": "f88d9912-c747-4261-b1b3-822439837dc7",
       "source": "wix",
       "description": ""
     },
@@ -345,62 +474,14 @@
       "description": ""
     },
     {
-      "title": "Get Hooked Lake Erie Essential Tee",
-      "wix_id": "3a849105-bd9a-46f3-a8a2-8d1a81f8bbc1",
-      "source": "wix",
-      "description": ""
-    },
-    {
       "title": "Lake Erie Heritage Anchor Hoodie",
       "wix_id": "2369009c-e52a-4554-8d6c-66b97e5e9d72",
       "source": "wix",
       "description": ""
     },
     {
-      "title": "Velveteen Microfiber Blanket",
-      "wix_id": "f42e9831-717c-428a-9117-ea7cbdb17cc8",
-      "source": "wix",
-      "description": ""
-    },
-    {
       "title": "Embroidered Crest Lounge Shorts \u2014 Black Sponge Fleece Sweatshorts",
       "wix_id": "a9b304a5-0c8b-48db-9660-fd9813dfa48d",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Men's Pajama Pants (AOP)",
-      "wix_id": "66fbf05d-2dbc-4630-9cc6-e33207f52dfd",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Unisex Heavy Blend\u2122 Crewneck Sweatshirt",
-      "wix_id": "ed9381a7-0d38-4da9-ab31-af98d2e04e05",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Men's Pajama Pants (AOP)",
-      "wix_id": "35f5f547-3227-4286-a454-13cee0e00ebb",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": " Men\u2019s Sports Shorts (AOP)",
-      "wix_id": "9eed6d21-8396-4f0a-95f5-3b2beed141db",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Unisex Joggers (Embroidery)",
-      "wix_id": "6abeb733-5e20-4d4b-8e44-fdcfa289f924",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Men's Piqu\u00e9 Polo",
-      "wix_id": "d07c7db9-8ba1-4829-a682-219ab33d2dfd",
       "source": "wix",
       "description": ""
     },
@@ -431,18 +512,6 @@
     {
       "title": "Lake Vibes Ivory Hoodie",
       "wix_id": "68769fff-8443-4d40-9f6e-58fb331b8879",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Always Fresh Sometimes Frozen Tee",
-      "wix_id": "f27e655b-0f5e-4ae8-a4af-341210f5eee8",
-      "source": "wix",
-      "description": ""
-    },
-    {
-      "title": "Always Fresh Sometimes Frozen Hoodie",
-      "wix_id": "409ff93e-25f0-43e3-a3dd-9c0d94c52b36",
       "source": "wix",
       "description": ""
     }
