@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import requests
 from dotenv import load_dotenv
@@ -42,7 +43,7 @@ def fetch_wix_products():
             print(f"Wix error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         data = resp.json()
-        
+
         batch = data.get("products", [])
         products.extend(batch)
 
@@ -77,34 +78,68 @@ def fetch_printify_products():
     return products
 
 
-# --- Match ---
+# --- Matching ---
+
+def normalize(title):
+    title = title.lower()
+    title = re.sub(r'[^a-z0-9 ]', ' ', title)
+    for filler in [" the ", " a ", " an ", " and ", " or ", " with ", " for ", " in ", " of "]:
+        title = title.replace(filler, " ")
+    return re.sub(r'\s+', ' ', title).strip()
+
+
+def fuzzy_score(wix_title, printify_title):
+    wix_words = set(normalize(wix_title).split())
+    p_words = set(normalize(printify_title).split())
+    overlap = len(wix_words & p_words)
+    return overlap / max(len(wix_words), len(p_words))
+
 
 def match_products(wix_products, printify_products):
-    printify_titles = {p["title"].strip().lower(): p for p in printify_products}
-
     matched = []
     wix_only = []
+    duplicates = []
 
     for wp in wix_products:
-        title = wp.get("name", "").strip().lower()
-        if title in printify_titles:
+        wix_title = wp.get("name", "")
+
+        best_score = 0
+        best_pp = None
+
+        for pp in printify_products:
+            score = fuzzy_score(wix_title, pp["title"])
+            if score > best_score:
+                best_score = score
+                best_pp = pp
+
+        if best_score == 1.0:
             matched.append({
-                "title": wp.get("name"),
+                "title": wix_title,
+                "match_type": "exact",
                 "wix_id": wp.get("id"),
-                "printify_id": printify_titles[title]["id"],
+                "printify_id": best_pp["id"],
                 "source": "printify",
                 "wix_description": wp.get("description", ""),
-                "printify_description": printify_titles[title].get("description", ""),
+                "printify_description": best_pp.get("description", ""),
+            })
+        elif best_score >= 0.4:
+            duplicates.append({
+                "wix_title": wix_title,
+                "printify_title": best_pp["title"],
+                "match_score": round(best_score, 2),
+                "wix_id": wp.get("id"),
+                "printify_id": best_pp["id"],
+                "action": "review: remove from Wix if confirmed same product, sync from Printify",
             })
         else:
             wix_only.append({
-                "title": wp.get("name"),
+                "title": wix_title,
                 "wix_id": wp.get("id"),
                 "source": "wix",
                 "description": wp.get("description", ""),
             })
 
-    return matched, wix_only
+    return matched, wix_only, duplicates
 
 
 # --- Main ---
@@ -119,14 +154,22 @@ if __name__ == "__main__":
     print(f"  Found {len(printify_products)} Printify products")
 
     print("Matching...")
-    matched, wix_only = match_products(wix_products, printify_products)
+    matched, wix_only, duplicates = match_products(wix_products, printify_products)
 
     print(f"\nResults:")
-    print(f"  Printify-sourced: {len(matched)}")
+    print(f"  Confirmed Printify-sourced: {len(matched)}")
+    print(f"  Possible duplicates (review needed): {len(duplicates)}")
     print(f"  Wix-native: {len(wix_only)}")
+
+    if duplicates:
+        print(f"\nPossible duplicates:")
+        for d in duplicates:
+            print(f"  [{d['match_score']}] Wix: \"{d['wix_title']}\"")
+            print(f"        Printify: \"{d['printify_title']}\"")
 
     output = {
         "printify_products": matched,
+        "possible_duplicates": duplicates,
         "wix_native_products": wix_only,
     }
 
