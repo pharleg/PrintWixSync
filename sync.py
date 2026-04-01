@@ -38,9 +38,11 @@ def fetch_wix_products():
             body["cursorPaging"]["cursor"] = cursor
 
         resp = requests.post(url, headers=WIX_HEADERS, json=body)
+        if not resp.ok:
+            print(f"Wix error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         data = resp.json()
-
+        
         batch = data.get("products", [])
         products.extend(batch)
 
