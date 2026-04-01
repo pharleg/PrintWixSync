@@ -60,7 +60,7 @@ def fetch_printify_products():
     page = 1
 
     while True:
-        url = f"https://api.printify.com/v3/shops/{PRINTIFY_SHOP_ID}/products.json?page={page}&limit=100"
+        url = f"https://api.printify.com/v1/shops/{PRINTIFY_SHOP_ID}/products.json?page={page}&limit=100"
         resp = requests.get(url, headers=PRINTIFY_HEADERS)
         resp.raise_for_status()
         data = resp.json()
