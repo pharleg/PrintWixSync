@@ -30,12 +30,12 @@ PRINTIFY_HEADERS = {
 def fetch_wix_products():
     products = []
     cursor = None
-    url = "https://www.wixapis.com/stores/v1/products/query"
+    url = "https://www.wixapis.com/catalog/v3/products/query"
 
     while True:
-        body = {"query": {"paging": {"limit": 100}}}
+        body = {"cursorPaging": {"limit": 100}}
         if cursor:
-            body["query"]["cursorPaging"] = {"cursor": cursor}
+            body["cursorPaging"]["cursor"] = cursor
 
         resp = requests.post(url, headers=WIX_HEADERS, json=body)
         resp.raise_for_status()
@@ -44,7 +44,7 @@ def fetch_wix_products():
         batch = data.get("products", [])
         products.extend(batch)
 
-        cursor = data.get("metadata", {}).get("cursors", {}).get("next")
+        cursor = data.get("pagingMetadata", {}).get("cursors", {}).get("next")
         if not cursor or not batch:
             break
 
