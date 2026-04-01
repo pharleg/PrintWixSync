@@ -30,7 +30,7 @@ PRINTIFY_HEADERS = {
 def fetch_wix_products():
     products = []
     cursor = None
-    url = "https://www.wixapis.com/catalog/v3/products/query"
+    url = "https://www.wixapis.com/stores/v3/products/query"
 
     while True:
         body = {"cursorPaging": {"limit": 100}}
