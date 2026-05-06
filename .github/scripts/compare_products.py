@@ -1,7 +1,6 @@
-import urllib.request
+import requests
 import json
 import os
-import requests
 
 printify_key = os.environ["PRINTIFY_API_KEY"]
 printify_shop = os.environ["PRINTIFY_SHOP_ID"]
@@ -9,22 +8,22 @@ wix_key = os.environ["WIX_API_KEY"]
 wix_site = os.environ["WIX_SITE_ID"]
 wix_account = os.environ["WIX_ACCOUNT_ID"]
 
+printify_headers = {"Authorization": "Bearer " + printify_key}
+wix_headers = {
+    "Content-Type": "application/json",
+    "Authorization": wix_key,
+    "wix-site-id": wix_site,
+    "wix-account-id": wix_account,
+}
+
 # Fetch all Printify products (paginated)
-import requests
-
-headers = {"Authorization": "Bearer " + printify_key}
-url = "https://api.printify.com/v1/shops/" + printify_shop + "/products.json?limit=50&page=1"
-r = requests.get(url, headers=headers)
-print(r.status_code, r.text[:200])
-
 printify_titles = set()
 page = 1
 while True:
     url = "https://api.printify.com/v1/shops/" + printify_shop + "/products.json?limit=50&page=" + str(page)
-    req = urllib.request.Request(url, headers={"Authorization": "Bearer " + printify_key})
-    with urllib.request.urlopen(req) as r:
-        data = json.loads(r.read())
-    products = data.get("data", [])
+    r = requests.get(url, headers=printify_headers)
+    r.raise_for_status()
+    products = r.json().get("data", [])
     for p in products:
         printify_titles.add(p["title"].strip().lower())
     if len(products) < 50:
@@ -40,19 +39,13 @@ while True:
     body = {"limit": 100}
     if cursor:
         body["cursorPaging"] = {"cursor": cursor}
-    req = urllib.request.Request(
+    r = requests.post(
         "https://www.wixapis.com/stores/v3/products/query",
-        data=json.dumps(body).encode(),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": wix_key,
-            "wix-site-id": wix_site,
-            "wix-account-id": wix_account,
-        },
-        method="POST"
+        headers=wix_headers,
+        json=body
     )
-    with urllib.request.urlopen(req) as r:
-        data = json.loads(r.read())
+    r.raise_for_status()
+    data = r.json()
     batch = data.get("products", [])
     wix_products.extend(batch)
     cursor = data.get("pagingMetadata", {}).get("cursors", {}).get("next")
