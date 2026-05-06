@@ -1,25 +1,22 @@
 import urllib.request
 import json
 import os
+import requests
 
 printify_key = os.environ["PRINTIFY_API_KEY"]
 printify_shop = os.environ["PRINTIFY_SHOP_ID"]
-
-print(f"Key length: {len(printify_key)}")
-print(f"Key starts with: {printify_key[:10]}")
-print(f"Shop ID: {printify_shop}")
-# Get shop ID
-url = "https://api.printify.com/v1/shops.json"
-req = urllib.request.Request(url, headers={"Authorization": "Bearer " + printify_key})
-with urllib.request.urlopen(req) as r:
-    shops = json.loads(r.read())
-print("Shops:", shops)
-
 wix_key = os.environ["WIX_API_KEY"]
 wix_site = os.environ["WIX_SITE_ID"]
 wix_account = os.environ["WIX_ACCOUNT_ID"]
 
 # Fetch all Printify products (paginated)
+import requests
+
+headers = {"Authorization": "Bearer " + printify_key}
+url = "https://api.printify.com/v1/shops/" + printify_shop + "/products.json?limit=50&page=1"
+r = requests.get(url, headers=headers)
+print(r.status_code, r.text[:200])
+
 printify_titles = set()
 page = 1
 while True:
