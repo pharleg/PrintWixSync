@@ -19,6 +19,13 @@ jobs:
           python3 << 'EOF'
           import urllib.request
           import json
+          import os
+
+          PRINTIFY_API_KEY = os.environ["PRINTIFY_API_KEY"]
+          PRINTIFY_SHOP_ID = os.environ["PRINTIFY_SHOP_ID"]
+          WIX_API_KEY = os.environ["WIX_API_KEY"]
+          WIX_SITE_ID = os.environ["WIX_SITE_ID"]
+          WIX_ACCOUNT_ID = os.environ["WIX_ACCOUNT_ID"]
 
           # --- Fetch all Printify products (paginated) ---
           printify_titles = set()
