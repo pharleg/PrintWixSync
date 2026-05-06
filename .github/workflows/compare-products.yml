@@ -84,9 +84,3 @@ jobs:
               print(f"  {t}")
 
           EOF
-        env:
-          PRINTIFY_SHOP_ID: ${{ secrets.PRINTIFY_SHOP_ID }}
-          PRINTIFY_API_KEY: ${{ secrets.PRINTIFY_API_KEY }}
-          WIX_API_KEY: ${{ secrets.WIX_API_KEY }}
-          WIX_SITE_ID: ${{ secrets.WIX_SITE_ID }}
-          WIX_ACCOUNT_ID: ${{ secrets.WIX_ACCOUNT_ID }}
