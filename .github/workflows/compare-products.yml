@@ -17,4 +17,4 @@ jobs:
           WIX_API_KEY: ${{ secrets.WIX_API_KEY }}
           WIX_SITE_ID: ${{ secrets.WIX_SITE_ID }}
           WIX_ACCOUNT_ID: ${{ secrets.WIX_ACCOUNT_ID }}
-        run: python3 scripts/compare_products.py
+        run: python3 .github/scripts/compare_products.py
